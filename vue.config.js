@@ -14,6 +14,8 @@ const path = require('path');
 const globalVars = require('./src/style/var.js');
 
 module.exports = {
+  publicPath:'',
+  outputDir:'docs',
   devServer: {
     port: 8866,
     proxy: {

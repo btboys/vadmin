@@ -1,0 +1,14 @@
+apply plugin: 'com.github.node-gradle.node'
+
+node {
+    version = '14.9.0'
+    yarnVersion = '1.22.5'
+    download = true
+    distBaseUrl = 'https://npm.taobao.org/mirrors/node'
+}
+
+task pcbuild(type: YarnTask, dependsOn: 'yarn') {
+    group = 'build'
+    description = 'Build the client bundle'
+    args = ['run', 'build']
+}

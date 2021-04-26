@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0dd640"],{"80d6":function(e,n,t){"use strict";t.r(n);var a=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[e._v(" 角色 ")])},c=[],d={name:"Role"},u=d,l=t("2877"),o=Object(l["a"])(u,a,c,!1,null,"5e74dab7",null);n["default"]=o.exports}}]);
+//# sourceMappingURL=chunk-2d0dd640.45da97f1.js.map

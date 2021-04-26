@@ -11,9 +11,9 @@
  */
 const vars = require('heyui-gson/themes/var.js');
 Object.assign(vars, {
-  "primary-color": "#409eff",
-  "link-color": "#409eff",
-  "blue-color": "#409eff",
+  "primary-color": "#ff6600",
+  "link-color": "#ff6600",
+  "blue-color": "#ff6600",
   "green-color": "#67c23a",
   "yellow-color": "#e6a23c",
   "red-color": "#f56c6c",

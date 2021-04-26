@@ -44,7 +44,7 @@ div {
     color: #fff;
 
     &-logo {
-      width: @slider-width+20;
+      width: @slider-width;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -75,7 +75,8 @@ div {
         &.selected {
           opacity: 1;
           font-weight: bold;
-          background: lighten(@nav-bg, 10%);
+          background: lighten(@primary-color, 35%);
+		  color:#000;
 
           &:after {
             content: '';
@@ -155,7 +156,8 @@ div {
         &.selected {
           opacity: 1;
           font-weight: bold;
-          background: lighten(@nav-bg, 10%);
+          background: lighten(@primary-color, 35%);
+		  color:#000;
 
           &:after {
             content: '';
@@ -213,9 +215,8 @@ div {
         height: 35px;
         line-height: 35px;
         padding: 0 20px;
-        background: @gray-color;
-        color: #000;
-        border-left: 3px solid @primary-color;
+        background: @primary-color;
+        color: #fff;
       }
     }
   }
